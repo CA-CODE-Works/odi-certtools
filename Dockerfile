@@ -2,7 +2,11 @@ FROM python:3
 
 WORKDIR /usr/src/app
 
+ADD . cert-tools
+
 WORKDIR /usr/src/app/cert-tools
+
+
 
 RUN pip install .
 
