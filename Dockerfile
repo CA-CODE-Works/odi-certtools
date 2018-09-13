@@ -7,7 +7,7 @@ ADD . cert-tools
 WORKDIR /usr/src/app/cert-tools
 
 
-
+RUN pip install -f requirements.txt
 RUN pip install .
 
 ADD images/seal-of-california.png ../app/assets/seal-of-california.png
@@ -16,4 +16,4 @@ ADD images/DSIAGraduationCertificates2018.png ../app/assets/DSIAGraduationCertif
 
 
 
-CMD sleep infinity
+#CMD exec /bash -c "trap : TERM INT; sleep infinity & wait"
