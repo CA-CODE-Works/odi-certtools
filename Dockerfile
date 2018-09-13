@@ -7,7 +7,6 @@ ADD . cert-tools
 WORKDIR /usr/src/app/cert-tools
 
 
-RUN pip install -f requirements.txt
 RUN pip install .
 
 ADD images/seal-of-california.png ../app/assets/seal-of-california.png
