@@ -7,7 +7,9 @@ ADD . odi-certtools
 
 WORKDIR /usr/src/app/odi-certtools
 
-add images .
+ADD images/logo.png sample_data/app/assets/logo.png
+ADD images/certificate-image.png sample/app/assets/certificate-image.png
+ADD images/DSIAGraduationCertificates2018.png sample/app/assets/DSIAGraduationCertificates2018.png
 
 RUN pip install .
 
