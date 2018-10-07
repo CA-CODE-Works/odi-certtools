@@ -7,6 +7,7 @@ ADD . odi-certtools
 
 WORKDIR /usr/src/app/odi-certtools
 
+add images .
 
 RUN pip install .
 
