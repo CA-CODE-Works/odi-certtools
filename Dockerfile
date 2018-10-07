@@ -14,9 +14,6 @@ ADD images/certificate-image.png ../sampla_data/images/certificate-image.png
 ADD images/DSIAGraduationCertificates2018.png ../sample_data/images/DSIAGraduationCertificates2018.png
 
 
-/usr/src/app/cert-tools/sample_data/images/
-
-
 EXPOSE 9000
 
 ENTRYPOINT ["python"]
