@@ -2,9 +2,9 @@ FROM python:3
 
 WORKDIR /usr/src/app
 
-ADD . cert-tools
+RUN git clone https://github.com/CA-CODE-Works/odi-certtools.git
 
-WORKDIR /usr/src/app/cert-tools
+WORKDIR /usr/src/app/odi-certtools
 
 
 RUN pip install .
