@@ -9,7 +9,7 @@ WORKDIR /usr/src/app/cert-tools
 
 RUN pip install .
 
-ADD images/caltesch-icon.png ../app/assets/seal-of-california.png
+ADD images/caltech-icon.png ../app/assets/caltech-icon.png
 ADD images/certificate-image.png ../app/assets/certificate-image.png
 ADD images/DSIAGraduationCertificates2018.png ../app/assets/DSIAGraduationCertificates2018.png
 
